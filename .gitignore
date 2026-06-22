@@ -1,0 +1,49 @@
+## Individual channels and user-specific configurations
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leasePublic/
+x64/
+x86/
+[A-Z]itHub/
+build/
+bld/
+[Bin]/
+[Obj]/
+Generated%20Files/
+
+## JetBrains Rider / IntelliJ IDEA
+.idea/
+*.sln.iml
+
+## Visual Studio cache and settings
+.vs/
+Minidumps/
+
+## .NET Core / .NET 10 Web tools
+_backup/
+*.filelist.xml
+*.log
+appsettings.Development.json
+
+## Rider Performance Profiler (dotTrace / dotMemory / Timeline snapshots)
+*.dtp
+*.dmp
+*.Snapshot
+*.snapshot
+Snapshots/
+Analyse/
+
+## Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## User-secrets configuration (for local development)
+secrets.json

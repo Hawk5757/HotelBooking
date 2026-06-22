@@ -4,18 +4,16 @@
 *.sln.docstates
 
 ## Build results
+bin/
+obj/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Re]leasePublic/
 x64/
 x86/
-[A-Z]itHub/
 build/
 bld/
-[Bin]/
-[Obj]/
-Generated%20Files/
 
 ## JetBrains Rider / IntelliJ IDEA
 .idea/

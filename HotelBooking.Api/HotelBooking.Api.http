@@ -1,6 +1,12 @@
-@HotelBooking.Api_HostAddress = http://localhost:5220
+@HotelBooking.Api_HostAddress = https://localhost:7009
 
-GET {{HotelBooking.Api_HostAddress}}/weatherforecast/
+### 1. Get Diagnostic Test Hotels & IDs (Get GUIDs)
+GET {{HotelBooking.Api_HostAddress}}/api/test-hotels
 Accept: application/json
 
 ###
+
+### 2. Search Room Availability & Pricing
+# Change the HotelId parameter to one of the GUIDs received from the endpoint above
+GET {{HotelBooking.Api_HostAddress}}/api/availability?HotelId=1cb5b217-1a2d-4bba-9344-94e8ea14382a&CheckInDate=2026-07-01&CheckOutDate=2026-07-05&NumberOfRooms=1&AdultsCount=2
+Accept: application/json
